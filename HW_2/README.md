@@ -61,7 +61,8 @@ resp.
  'daily_sleep': weight * 2.5}
 ```
 Задание:
-- Достать из Respose значение из поля `age` и передать в поле `age` запроса http://162.55.220.72:5005/get_test_user  
+- Достать из Respose значение из поля `age` и передать в поле `age` запроса http://162.55.220.72:5005/get_test_user   
+
 Тесты:
 - Сделать Response Assertion на провекрку статус код 200
 - Сделать Response Assertion на провекрку `"daily_food": weight * 0.012`
