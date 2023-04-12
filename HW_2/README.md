@@ -19,7 +19,7 @@ resp.
             'u_salary_1.5_year': salary * 4}
 }
 ```
-Действия: 
+Задание: 
 - Достать из Respose значение из поля `qa_salary_after_6_months` и передать в поле `salary` запроса http://162.55.220.72:5005/new_data
 
 ===================
@@ -39,7 +39,7 @@ resp.
  'age': int(age),
  'salary': [salary, str(salary*2), str(salary*3)]}
 ```
-Действия:
+Задание:
 - Достать из Respose значение из поля `name` и передать в поле `name` запроса http://162.55.220.72:5005/test_pet_info
 
 ===================
@@ -60,12 +60,11 @@ resp.
  'daily_food':weight * 0.012,
  'daily_sleep': weight * 2.5}
 ```
-Тесты:
+Задание:
 - Достать из Respose значение из поля `age` и передать в поле `age` запроса http://162.55.220.72:5005/get_test_user  
-Задание ***
-- Изучать как работают Response Assertion
-- Сделать Assertion на провекрку статус код 200
-- Сделать Assertion на провекрку `"daily_food": weight * 0.012`
+Тесты:
+- Сделать Response Assertion на провекрку статус код 200
+- Сделать Response Assertion на провекрку `"daily_food": weight * 0.012`
 
 ===================
 
@@ -89,7 +88,5 @@ resp.
 }
 ```
 Тесты:  
-Задание ***
-- Изучать как работают Response Assertion
-- Сделать Assertion на провекрку статус код 200
-- Сделать Assertion на провекрку `"salary": salary`
+- Сделать Response Assertion на провекрку статус код 200
+- Сделать Response Assertion на провекрку `"salary": salary`
